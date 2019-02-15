@@ -1,0 +1,13 @@
+{
+    "categories": [
+        "Viandes",
+        "Boissons",
+        "Frais",
+        "Produits laitiers",
+        "Poissons",
+        "Pains"
+    ],
+    "user": "root",
+    "password" : "",
+    "server": "localhost"
+}
