@@ -11,6 +11,7 @@ Il faudra vous mettre dans le dossier ( **cd P5_Pur_Beurre_OC/Livrables** )
 (Tous les **imports** sont dans la partie **venv** )
 
 Modifiez le fichier **config.json** , il doit ressembler à ceci:
+
     ```json
     {
         "categories": [
