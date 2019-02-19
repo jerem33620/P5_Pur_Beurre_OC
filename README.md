@@ -1,9 +1,14 @@
-Projet 5 OpenClssRooms Pur-Beurre
-Télecharger le fichier sur : (https://github.com/jerem33620/P5_Pur_Beurre_OC.git
-Connectez-vous a mysql et sur PhpMyAdmin
-Ensuite, il faudra vous mettre dans le dossier P5_Pur_Beurre_OC
-(Tous les imports sont dans la partie env)
-Modifiez le fichier config.json , il doit ressembler a ceci:
+# Projet 5 OpenClassRooms Pur-Beurre 
+
+Tableau [trello !](https://trello.com/b/BdchSBv2/purbeurre)
+Télécharger le fichier sûr : [https://github.com/jerem33620/P5_Pur_Beurre_OC.git](https://github.com/jerem33620/P5_Pur_Beurre_OC.git)
+Connectez-vous à [mysql](https://www.mysql.com/fr/) et sur [PhpMyAdmin](https://www.phpmyadmin.net/)
+Il faudra vous mettre dans le dossier ( **. cd P5_Pur_Beurre_OC/Livrables .** )
+(Tous les **. imports .** sont dans la partie **. env .** )
+
+Modifiez le fichier **. config.json .** , il doit ressembler à ceci:
+
+` ``javascript
 {
     "categories": [
         "Viandes",
@@ -17,7 +22,14 @@ Modifiez le fichier config.json , il doit ressembler a ceci:
     "password" : "",
     "server": "localhost"
 }
-Executez le script avec par exemple Pycharm en allant sur le fichier main.py et RUN
-Si c'est la première fois que vous executez l'application, vous devrez peut-etre attendre un peu avant que le menu apparaisse. C'est parce que la base de donnees se creer et va mettre à jour en faisant des demandes a Open Food Facts.
-Ensuite vous pourrez tester librement votre nouvelle application qui vous permettra de choisir parmi des categories et des produits diverses et varies en note nutritionnelle "A/B/C/D/E".
-J'ai choisit de faire une methode de travail agile. J'ai eu enormement de difficulte a comprendre par ou je devais commencer ou meme pour juste rapatrie les produits et categories du site OpenFoodFacts dans ma Base de Donnees. J'ai compris qu'il me fallait un fichier json pour substituer a mon probleme du transfert de fichier. J'ai toujours des difficultes a comprendre les erreurs, mais a force de perseverer, j'ai reussi a finir mon projet meme si j'ai mis plus de temps que prevu.
+`` `
+Il faudra changer **. root .** et rajouter votre **. mot de passe! .** 
+
+Exécutez le script, avec par exemple **. [Pycharm](https://www.jetbrains.com/pycharm/) .** en allant sur le fichier **. main.py .** et **. RUN .** 
+Si, c'est la première fois que vous exécutez l'application, vous devrez peut-être attendre un peut avant que le menu apparaisse. 
+C'est car, la base de données se créer et va mettre à jour en faisant des demandes à **. [Open Food Facts](https://fr.openfoodfacts.org/). .**
+Ensuite vous pourrez tester librement votre nouvelle application, qui vous permettra de choisir parmi des catégories et des produits diverses et variés en note nutritionnelle  "A/B/C/D/E" .
+
+
+J'ai eu des difficultés à comprendre par où je devais commencer ou même pour juste rapatrié les produits et catégories du site OpenFoodFacts dans ma Base de Données. 
+J'ai compris qu'il me fallait un fichier json pour substituer à mon problème du transfert de fichier. J'ai toujours des difficultés à comprendre les erreurs, mais à force de persévérer, j'ai réussi à finir mon projet, même si j'ai mis plus de temps que prévu.
