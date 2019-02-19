@@ -12,21 +12,20 @@ Il faudra vous mettre dans le dossier ( **cd P5_Pur_Beurre_OC/Livrables** )
 
 Modifiez le fichier **config.json** , il doit ressembler à ceci:
 
-    ```json
+
     {
         "categories": [
-            "Viandes",
-            "Boissons",
-            "Frais",
-            "Produits laitiers",
-            "Poissons",
-            "Pains"
+            "produits laitiers",
+            "boissons",
+            "desserts",
+            "plats préparés",
+            "snacks sucrés"
         ],
-        "user": "root",
-        "password" : "",
+        "user": "USER",
+        "password" : "PASSWORD",
         "server": "localhost"
     }
-    ```
+
 
 Il faudra changer **root** et rajouter votre **mot de passe!**
 
@@ -40,17 +39,3 @@ Ensuite vous pourrez tester librement votre nouvelle application, qui vous perme
 
 J'ai eu des difficultés à comprendre par où je devais commencer ou même pour juste rapatrié les produits et catégories du site OpenFoodFacts dans ma Base de Données. 
 J'ai compris qu'il me fallait un fichier json pour substituer à mon problème du transfert de fichier. J'ai toujours des difficultés à comprendre les erreurs, mais à force de persévérer, j'ai réussi à finir mon projet, même si j'ai mis plus de temps que prévu.
-    ```json
-    {
-        "categories": [
-            "produits laitiers",
-            "boissons",
-            "desserts",
-            "plats préparés",
-            "snacks sucrés"
-        ],
-        "user": "USER",
-        "password" : "PASSWORD",
-        "server": "localhost"
-    }
-    ```
